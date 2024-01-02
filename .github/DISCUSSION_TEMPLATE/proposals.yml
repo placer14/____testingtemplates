@@ -4,15 +4,13 @@ body:
 - type: checkboxes
   id: cat-preferences
   attributes:
-    label: What kinds of cats do you like?
-    description: You may select more than one.
+    label: "Proposal Submission Steps"
     options:
-      - label: Orange cat (required. Everyone likes orange cats.)
+      - label: Title: briefly describes the proposed change in 5-10 words
         required: true
 - type: checkboxes
   attributes:
     label: "Proposal Submission Steps"
-    description: "test"
     options:
     - label: Title: briefly describes the proposed change in 5-10 words
     - label: Motivation/Benefits: clearly outline all of the benefits of the proposed solution
