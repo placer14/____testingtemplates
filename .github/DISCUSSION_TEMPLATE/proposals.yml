@@ -1,7 +1,7 @@
 title: "DRAFT: <title> "
 labels: ["wip"]
 body:
-  - type: markdown
+  - type: textarea
     id: motivation
     attributes:
         label: "Motivation and Benefits"
@@ -12,7 +12,7 @@ body:
           - Which stakeholders would benefit from this proposal?
 
           Add any verbose descriptions or details after your summarized bullets above.
-  - type: markdown
+  - type: textarea
     id: costs
     attributes:
         label: "Costs"
@@ -21,7 +21,7 @@ body:
           - What are the upfront costs?
           - What are on-going costs?
           - Which stakeholders would want to understand and/or approve these costs.
-  - type: markdown
+  - type: textarea
     id: risks
     attributes:
         label: "Risks and Mitigations"
@@ -34,7 +34,7 @@ body:
           (optional: Briefly describe how we might mitigate this risk from occurring.)
 
           ### (repeat as needed)
-  - type: markdown
+  - type: textarea
     id: solution
     attributes:
         label: "Solution"
@@ -47,27 +47,10 @@ body:
 
           - Solution component #1
           - Solution component #2
-  - type: markdown
+  - type: textarea
     id: acceptance
     attributes:
         label: "Acceptance Criteria"
         description: "Which stakeholders will validate the completion of this proposal. If the proposal is an on-going solution, this should indicate how much work is needed for the solution to be passively maintained."
         placeholder: |
           - {Stakeholder} verifies that {Feature} can do {Benefit} {given {Conditions}}
-  - type: markdown
-    attributes:
-      value: |
-        This is text that will show up in the template!
-  - type: textarea
-    id: improvements
-    attributes:
-      label: Top 3 improvements
-      description: "What are the top 3 improvements we could make to this project?"
-      value: |
-        1.
-        2.
-        3.
-        ...
-      render: bash
-    validations:
-      required: true
