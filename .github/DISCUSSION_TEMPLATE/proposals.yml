@@ -31,13 +31,11 @@ body:
     label: "Risks and Mitigations"
     description: "Outline potential ways this proposal's solution might fail or cause problems. Consider the entire lifecycle of the solution. Before, during, and after delivery."
     placeholder: |
-      ### <brief description of a single risk concern>
+      <brief description of a single risk concern>
 
       Describe the risk in further detail and how it might occur.
 
       (optional: Briefly describe how we might mitigate this risk from occurring.)
-
-      ### (repeat as needed)
 - type: textarea
   id: solution
   attributes:
