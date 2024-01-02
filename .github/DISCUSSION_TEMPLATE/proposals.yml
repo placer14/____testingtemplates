@@ -5,13 +5,6 @@ body:
   attributes:
     label: "Proposal Submission Steps"
     description: "test"
-    options:
-      - label: Title: briefly describes the proposed change in 5-10 words
-      - label: Motivation/Benefits: clearly outline all of the benefits of the proposed solution
-      - label: Costs: briefly summarize the cost (to all stakeholders) of completion or on-going support of the proposed solution
-      - label: Risks and Mitigations: clearly outline all of the known risks and potential mitigations
-      - label: Solution: if known, describe with detail the work required to execute the proposed solution
-      - label: Acceptance: if known, describe the conditions which complete this proposal
 - type: textarea
   id: motivation
   attributes:
