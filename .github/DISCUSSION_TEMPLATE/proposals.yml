@@ -9,7 +9,6 @@ body:
     options:
       - label: Orange cat (required. Everyone likes orange cats.)
         required: true
-      - label: **Black cat**
 - type: checkboxes
   attributes:
     label: "Proposal Submission Steps"
