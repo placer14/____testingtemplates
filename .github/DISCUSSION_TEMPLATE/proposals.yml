@@ -55,10 +55,3 @@ body:
 
       - Solution component #1
       - Solution component #2
-- type: textarea
-  id: acceptance
-  attributes:
-    label: "Acceptance Criteria"
-      description: "Which stakeholders will validate the completion of this proposal. If the proposal is an on-going solution, this should indicate how much work is needed for the solution to be passively maintained."
-      placeholder: |
-        - {Stakeholder} verifies that {Feature} can do {Benefit} {given {Conditions}}
