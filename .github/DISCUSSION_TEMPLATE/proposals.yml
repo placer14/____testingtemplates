@@ -1,0 +1,87 @@
+title: "DRAFT: <title> "
+labels: ["wip"]
+body:
+  - type: checkboxes
+    attributes:
+      label: "Proposal Submission Steps"
+      options:
+        - label: Title: briefly describes the proposed change in 5-10 words
+          required: true
+        - label: Motivation/Benefits: clearly outline all of the benefits of the proposed solution
+          required: true
+        - label: Costs: briefly summarize the cost (to all stakeholders) of completion or on-going support of the proposed solution
+          required: true
+        - label: Risks and Mitigations: clearly outline all of the known risks and potential mitigations
+          required: true
+        - label: Solution: if known, describe with detail the work required to execute the proposed solution
+        - label: Acceptance: if known, describe the conditions which complete this proposal
+  - type: markdown
+    id: motivation
+    attributes:
+        label: "Motivation and Benefits"
+        description: "What is motivating the creation of the proposal? Be brief. Use bullets. Make it easy to scan. If details are needed for clarity, adde them after the bullets."
+        placeholder: |
+          - Why is this proposal important? Describe the pain or improvement we hope to fix.
+          - What is the cost of not accepting this proposal now?
+          - Which stakeholders would benefit from this proposal?
+
+          Add any verbose descriptions or details after your summarized bullets above.
+  - type: markdown
+    id: costs
+    attributes:
+        label: "Costs"
+        description: "Outline expected time, money, and overhead costs. One-time vs on-going. Consider planning, design, development, infrastructure, production support."
+        placeholder: |
+          - What are the upfront costs?
+          - What are on-going costs?
+          - Which stakeholders would want to understand and/or approve these costs.
+  - type: markdown
+    id: risks
+    attributes:
+        label: "Risks and Mitigations"
+        description: "Outline potential ways this proposal's solution might fail or cause problems. Consider the entire lifecycle of the solution. Before, during, and after delivery."
+        placeholder: |
+          ### <brief description of a single risk concern>
+
+          Describe the risk in further detail and how it might occur.
+
+          (optional: Briefly describe how we might mitigate this risk from occurring.)
+
+          ### (repeat as needed)
+  - type: markdown
+    id: solution
+    attributes:
+        label: "Solution"
+        description: "Outline the steps required to execute the proposed solution. These steps should be actionable upon acceptance of the proposal by all stakeholders. They should be clear enough to be actionable by the executing stakeholder... consider that this may not be the proposal's author."
+        placeholder: |
+          1. Step one of solution.
+          2. Step two of solution.
+
+          alternatively... if steps are not necessarily sequential, you could use bullets:
+
+          - Solution component #1
+          - Solution component #2
+  - type: markdown
+    id: acceptance
+    attributes:
+        label: "Acceptance Criteria"
+        description: "Which stakeholders will validate the completion of this proposal. If the proposal is an on-going solution, this should indicate how much work is needed for the solution to be passively maintained."
+        placeholder: |
+          - {Stakeholder} verifies that {Feature} can do {Benefit} {given {Conditions}}
+  - type: markdown
+    attributes:
+      value: |
+        This is text that will show up in the template!
+  - type: textarea
+    id: improvements
+    attributes:
+      label: Top 3 improvements
+      description: "What are the top 3 improvements we could make to this project?"
+      value: |
+        1.
+        2.
+        3.
+        ...
+      render: bash
+    validations:
+      required: true
