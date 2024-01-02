@@ -4,6 +4,7 @@ body:
 - type: checkboxes
   attributes:
     label: "Proposal Submission Steps"
+    description: "test"
     options:
       - label: Title: briefly describes the proposed change in 5-10 words
       - label: Motivation/Benefits: clearly outline all of the benefits of the proposed solution
